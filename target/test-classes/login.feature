@@ -25,7 +25,7 @@ Feature: Login feature
       |Invalid user           |InvalidPassword|
 
 
-  Scenario: User should not be able to login with Invalid credentials
+  Scenario: User should not be able to login with Locked user credentials credentials
     Given User is on login page
     When User enters valid "locked_out_user" and "secret_sauce"
     And User clicks on login button

@@ -2,7 +2,8 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true"
-          name="C:/Users/User/IdeaProjects/RESTful/src/test/java/org/TestRunner/Runner.java">
+
+          name="Runner.java">
         <classes/>
     </test>
 </suite>
