@@ -1,52 +1,41 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="26.962">
-    <testcase classname="Login feature" name="User should be able to login with valid credentials" time="7.15">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="22.568">
+    <testcase classname="Login feature" name="User should be able to login with valid credentials" time="7.671">
         <system-out><![CDATA[Given User is on login page.................................................passed
 When User enters valid "standard_user" and "secret_sauce"...................passed
 And User clicks on login button.............................................passed
 Then User should be able to login successfully..............................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Login feature" name="User should be able to login with valid credentials 2" time="1.786">
+    <testcase classname="Login feature" name="User should be able to login with valid credentials 2" time="1.769">
         <system-out><![CDATA[Given User is on login page.................................................passed
 When User enters valid "problem_user" and "secret_sauce"....................passed
 And User clicks on login button.............................................passed
 Then User should be able to login successfully..............................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Login feature" name="User should be able to login with valid credentials 3" time="6.914">
+    <testcase classname="Login feature" name="User should be able to login with valid credentials 3" time="6.777">
         <system-out><![CDATA[Given User is on login page.................................................passed
 When User enters valid "performance_glitch_user" and "secret_sauce".........passed
 And User clicks on login button.............................................passed
 Then User should be able to login successfully..............................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Login feature" name="User should not be able to login with Invalid credentials" time="4.704">
+    <testcase classname="Login feature" name="User should not be able to login with Invalid credentials" time="2.568">
         <system-out><![CDATA[Given User is on login page.................................................passed
 When User enters valid "steve Austin" and "secret_sauce"....................passed
 And User clicks on login button.............................................passed
 Then User should get error message of "Epic sadface: Username and password do not match any user in this service".passed
 ]]></system-out>
     </testcase>
-    <testcase classname="Login feature" name="User should not be able to login with Invalid credentials 2" time="1.943">
-        <failure message="expected [Swag Labs] but found []" type="java.lang.AssertionError"><![CDATA[Given User is on login page.................................................failed
-When User enters valid "Invalid user" and "InvalidPassword".................skipped
-And User clicks on login button.............................................skipped
-Then User should get error message of "Epic sadface: Username and password do not match any user in this service".skipped
-
-StackTrace:
-java.lang.AssertionError: expected [Swag Labs] but found []
-	at org.testng.Assert.fail(Assert.java:99)
-	at org.testng.Assert.failNotEquals(Assert.java:1037)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-	at org.testng.Assert.assertEquals(Assert.java:122)
-	at org.testng.Assert.assertEquals(Assert.java:629)
-	at org.testng.Assert.assertEquals(Assert.java:639)
-	at org.StepDefinitions.LoginPage_stepDef.user_is_on_login_page(LoginPage_stepDef.java:20)
-	at ✽.User is on login page(file:///C:/Users/User/IdeaProjects/RESTful/src/test/resources/login.feature:17)
-]]></failure>
+    <testcase classname="Login feature" name="User should not be able to login with Invalid credentials 2" time="1.667">
+        <system-out><![CDATA[Given User is on login page.................................................passed
+When User enters valid "Invalid user" and "InvalidPassword".................passed
+And User clicks on login button.............................................passed
+Then User should get error message of "Epic sadface: Username and password do not match any user in this service".passed
+]]></system-out>
     </testcase>
-    <testcase classname="Login feature" name="User should not be able to login with Invalid credentials 3" time="3.875">
+    <testcase classname="Login feature" name="User should not be able to login with Invalid credentials 3" time="1.653">
         <system-out><![CDATA[Given User is on login page.................................................passed
 When User enters valid "locked_out_user" and "secret_sauce".................passed
 And User clicks on login button.............................................passed
