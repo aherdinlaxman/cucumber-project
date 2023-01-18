@@ -25,6 +25,7 @@ public class Google_test001 {
     while(it.hasNext()){
         System.out.println(it.next().getText());
     }
+        System.out.println("I am google");
     }
 
 
